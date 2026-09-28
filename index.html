@@ -7,13 +7,11 @@
 <meta name="description" content="Rasodu Chulha brings authentic homemade Rajasthani Dal Baati, freshly prepared with traditional flavours. ₹249 per plate. Order via WhatsApp.">
 <meta name="keywords" content="Rajasthani food, Dal Baati, Homemade Rajasthani food, Homemade food, Authentic Indian food">
 <meta name="robots" content="index, follow">
-<!-- TODO: replace with the real production domain once deployed -->
 <link rel="canonical" href="https://YOUR-DOMAIN.example/">
 <meta property="og:title" content="Rasodu Chulha | Authentic Rajasthani Dal Baati">
 <meta property="og:description" content="Ghar Jaisa Swad, Dil Se Bana — authentic Rajasthani Dal Baati at ₹249 per plate.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Rasodu Chulha">
-<!-- TODO: replace with the real production URL and a publicly-hosted image (data: URIs are not honoured by social-share crawlers) -->
 <meta property="og:url" content="https://YOUR-DOMAIN.example/">
 <meta property="og:image" content="https://YOUR-DOMAIN.example/assets/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -24,12 +22,6 @@
 <meta name="theme-color" content="#F8F2E7">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='20' fill='%23F8F2E7'/%3E%3Cpath d='M20 6c2 6-3 8-3 13a5 5 0 0010 0c0-3-1-4-1-6 3 2 5 6 5 10a11 11 0 11-22 0c0-8 7-11 11-17z' fill='%23C4602F'/%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%23F8F2E7'/%3E%3Cpath d='M20 6c2 6-3 8-3 13a5 5 0 0010 0c0-3-1-4-1-6 3 2 5 6 5 10a11 11 0 11-22 0c0-8 7-11 11-17z' fill='%23C4602F'/%3E%3C/svg%3E">
-<!--
-  Still required once this goes to a real domain:
-  - Swap every https://YOUR-DOMAIN.example/ above for the real production URL
-  - Host an actual image file (e.g. /assets/og-image.jpg) for og:image / twitter:image — a data: URI won't be read by WhatsApp/Facebook/Twitter link-preview crawlers
-  - robots.txt and sitemap.xml must be created and served as separate files at the domain root; they can't live inside this single HTML file
--->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -255,19 +247,19 @@ nav{position:sticky; top:0; z-index:70; backdrop-filter:blur(10px); background:r
     <div class="mlh-grid" id="mlhGrid">
       <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:24px;">
         <div class="card reveal" style="padding:24px;">
-          <div class="img-wrap item-thumb" style="width:44px; height:44px; margin:0 0 10px;"><img class="food-photo" data-img="dal" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBTAA7" alt="Slow-cooked dal" loading="lazy" decoding="async"></div>
+          <div class="img-wrap item-thumb" style="width:44px; height:44px; margin:0 0 10px;"><img class="food-photo" src="assets/dal.webp" width="360" height="485" alt="Slow-cooked dal" loading="lazy" decoding="async"></div>
           <h3 style="font-size:16px; margin:12px 0 6px;">Slow-Cooked Dal</h3><p style="font-size:13.5px; color:#5c4636;">Rich, comforting and full of flavour.</p>
         </div>
         <div class="card reveal" style="padding:24px;">
-          <div class="img-wrap item-thumb" style="width:44px; height:44px; margin:0 0 10px;"><img class="food-photo" data-img="baati" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBTAA7" alt="Golden baati" loading="lazy" decoding="async"></div>
+          <div class="img-wrap item-thumb" style="width:44px; height:44px; margin:0 0 10px;"><img class="food-photo" src="assets/baati.webp" width="360" height="485" alt="Golden baati" loading="lazy" decoding="async"></div>
           <h3 style="font-size:16px; margin:12px 0 6px;">Golden Baati</h3><p style="font-size:13.5px; color:#5c4636;">Baked until crisp outside and soft inside.</p>
         </div>
         <div class="card reveal" style="padding:24px;">
-          <div class="img-wrap item-thumb" style="width:44px; height:44px; margin:0 0 10px;"><img class="food-photo" data-img="chutneyPickle" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBTAA7" alt="Bold garlic chutney" loading="lazy" decoding="async"></div>
+          <div class="img-wrap item-thumb" style="width:44px; height:44px; margin:0 0 10px;"><img class="food-photo" src="assets/chutney-pickle.webp" width="361" height="480" alt="Bold garlic chutney" loading="lazy" decoding="async"></div>
           <h3 style="font-size:16px; margin:12px 0 6px;">Bold Garlic Chutney</h3><p style="font-size:13.5px; color:#5c4636;">A traditional Rajasthani kick with every bite.</p>
         </div>
         <div class="card reveal" style="padding:24px;">
-          <div class="img-wrap item-thumb" style="width:44px; height:44px; margin:0 0 10px;"><img class="food-photo" data-img="salad" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBTAA7" alt="Pickle and fresh salad" loading="lazy" decoding="async"></div>
+          <div class="img-wrap item-thumb" style="width:44px; height:44px; margin:0 0 10px;"><img class="food-photo" src="assets/fresh-salad.webp" width="360" height="480" alt="Pickle and fresh salad" loading="lazy" decoding="async"></div>
           <h3 style="font-size:16px; margin:12px 0 6px;">Pickle &amp; Fresh Salad</h3><p style="font-size:13.5px; color:#5c4636;">Classic sides, served fresh with every plate.</p>
         </div>
       </div>
@@ -458,7 +450,7 @@ nav{position:sticky; top:0; z-index:70; backdrop-filter:blur(10px); background:r
       <p style="margin:10px 0 0; font-size:12px; color:#a89075;">FSSAI Lic. No. 30260927127358306</p>
     </div>
     <div style="display:flex; gap:20px; font-size:14px;">
-      <a href="#top">Home</a><a href="#plate">Menu</a><a href="#story">Our Story</a><a href="#thali">Order</a>
+      <a href="#top">Home</a><a href="#plate">Menu</a><a href="#story">Our Story</a><a href="#thali">Order</a><a href="privacy.html">Privacy</a>
     </div>
     <div style="display:flex; align-items:center; gap:14px;">
       <span style="font-weight:600;">₹249 / Plate</span>
@@ -507,6 +499,8 @@ nav{position:sticky; top:0; z-index:70; backdrop-filter:blur(10px); background:r
         <textarea id="ordAddress" rows="3" autocomplete="street-address" required aria-describedby="err-address"></textarea><p class="field-error" id="err-address" role="alert"></p></div>
       <div class="field"><label for="ordLandmark">Landmark (optional)</label>
         <input id="ordLandmark" type="text"></div>
+      <div class="field"><label for="ordTime">Preferred time (optional)</label>
+        <input id="ordTime" type="text" placeholder="e.g. today 8 pm"></div>
       <div class="field"><label for="ordNotes">Delivery instructions (optional)</label>
         <input id="ordNotes" type="text"></div>
       <button type="submit" class="btn btn-primary" style="width:100%; padding:17px 30px; margin-bottom:10px;">Send order on WhatsApp</button>
@@ -518,25 +512,66 @@ nav{position:sticky; top:0; z-index:70; backdrop-filter:blur(10px); background:r
 
 <script>
 let qty = 1;
-const CONFIG = {
-  businessName: 'Rasodu Chulha',
-  phone: '6355538898',
-  whatsapp: '916355538898',
-  pricePerPlate: 249,
-  minQty: 1,
-  maxQty: 20,
-  // Live rider tracking needs a real realtime backend (see TRACKING-SETUP.md).
-  // Keep false until one is configured; nothing on the page claims live tracking.
-  liveTrackingEnabled: false
+const SITE_CONFIG = {
+  SITE_URL: '',                 // set at deploy time (see DEPLOY-CHECKLIST.md)
+  BRAND_NAME: 'Rasodu Chulha',
+  WHATSAPP_NUMBER: '916355538898',
+  PHONE_NUMBER: '6355538898',
+  PRICE: 249,
+  CURRENCY: 'INR',
+  MIN_QTY: 1,
+  MAX_QTY: 20,
+  LIVE_TRACKING_ENABLED: false, // needs a real backend, see TRACKING-SETUP.md
+  ANALYTICS_ENABLED: false,     // enable only after GA_MEASUREMENT_ID is set
+  GA_MEASUREMENT_ID: '',        // e.g. G-XXXXXXXXXX (public ID, not a secret)
+  BACKEND_URL: '',
+  MAP_PROVIDER: '',
+  MAP_API_KEY: ''               // public, domain-restricted key only, never a private key
 };
-const PRICE = CONFIG.pricePerPlate;
-const MIN_QTY = CONFIG.minQty, MAX_QTY = CONFIG.maxQty;
+const PRICE = SITE_CONFIG.PRICE;
+const MIN_QTY = SITE_CONFIG.MIN_QTY, MAX_QTY = SITE_CONFIG.MAX_QTY;
+
+/* Analytics: off unless enabled + valid ID + visitor consent. Never receives
+   name, phone, address, notes or any other personal data. */
+const Analytics = (() => {
+  const KEY = 'rc_analytics_consent';
+  let ready = false;
+  const enabled = () => SITE_CONFIG.ANALYTICS_ENABLED && /^G-[A-Z0-9]{4,}$/.test(SITE_CONFIG.GA_MEASUREMENT_ID);
+  const read = () => { try { return localStorage.getItem(KEY); } catch (e) { return null; } };
+  const write = v => { try { localStorage.setItem(KEY, v); } catch (e) {} };
+  function load(){
+    if(ready) return; ready = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', SITE_CONFIG.GA_MEASUREMENT_ID, { allow_google_signals: false, allow_ad_personalization_signals: false });
+    const el = document.createElement('script');
+    el.async = true;
+    el.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(SITE_CONFIG.GA_MEASUREMENT_ID);
+    document.head.appendChild(el);
+  }
+  function banner(){
+    const b = document.createElement('div');
+    b.setAttribute('role','region'); b.setAttribute('aria-label','Analytics choice');
+    b.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:120;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 12px 30px -12px rgba(36,20,8,.4);max-width:520px;margin:0 auto;';
+    b.innerHTML = '<p style="margin:0 0 12px;font-size:14px;color:#5c4636;">May we use Google Analytics to count visits and button clicks? It never receives your name, phone or address. <a href="privacy.html" style="color:var(--terracotta);font-weight:600;">Privacy</a></p><div style="display:flex;gap:10px;"><button type="button" class="btn btn-primary" data-c="granted" style="flex:1;padding:12px 16px;">Allow</button><button type="button" class="btn btn-outline" data-c="denied" style="flex:1;padding:12px 16px;">No thanks</button></div>';
+    b.addEventListener('click', e => {
+      const c = e.target.closest('button[data-c]'); if(!c) return;
+      write(c.dataset.c); if(c.dataset.c === 'granted') load(); b.remove();
+    });
+    document.body.appendChild(b);
+  }
+  return {
+    init(){ if(!enabled()) return; const c = read(); if(c === 'granted') load(); else if(c === null) banner(); },
+    track(name, params){ if(!ready || typeof window.gtag !== 'function') return; try { window.gtag('event', name, params || {}); } catch (e) {} }
+  };
+})();
 
 function updateTotals(){
   document.querySelectorAll('.qtyVal').forEach(el=> el.textContent = qty);
   document.querySelectorAll('.totalAmt').forEach(el=> el.textContent = '₹' + (qty*PRICE));
 }
-function changeQty(d){ qty = Math.min(MAX_QTY, Math.max(MIN_QTY, qty + d)); updateTotals(); }
+function changeQty(d){ qty = Math.min(MAX_QTY, Math.max(MIN_QTY, qty + d)); updateTotals(); Analytics.track('change_quantity', { quantity: qty }); }
 
 let lastFocusedEl = null;
 function getFocusable(container){
@@ -553,6 +588,7 @@ function trapFocus(e, panel){
 }
 
 function openModal(){
+  Analytics.track('begin_order', { item_name: 'Dal Baati', quantity: qty });
   lastFocusedEl = document.activeElement;
   document.getElementById('orderModal').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -585,6 +621,7 @@ function submitOrder(e){
   const address = document.getElementById('ordAddress').value.trim();
   const landmark = document.getElementById('ordLandmark').value.trim();
   const notes = document.getElementById('ordNotes').value.trim();
+  const prefTime = document.getElementById('ordTime').value.trim();
   const checks = [
     ['ordName', name.length < 2 ? 'Please enter your name.' : ''],
     ['ordPhone', /^[6-9]\d{9}$/.test(phone) ? '' : 'Please enter a valid 10-digit mobile number.'],
@@ -593,19 +630,21 @@ function submitOrder(e){
   const results = checks.map(([id,msg]) => [id, setFieldError(id,msg)]);
   const firstBad = results.find(r => !r[1]);
   if(firstBad){ document.getElementById(firstBad[0]).focus(); return false; }
-  const total = qty * CONFIG.pricePerPlate;
+  const total = qty * SITE_CONFIG.PRICE;
   const plateWord = qty > 1 ? 'plates' : 'plate';
   const lines = [
-    `Hi ${CONFIG.businessName},`, '',
+    `Hi ${SITE_CONFIG.BRAND_NAME},`, '',
     "I'd like to place an order.", '',
     'Order:', 'Dal Baati', `Quantity: ${qty} ${plateWord}`, `Price: \u20B9${total}`, '',
     'Customer:', `Name: ${name}`, `Phone: ${phone}`, '',
     'Delivery:', `Address: ${address}`
   ];
   if(landmark) lines.push(`Landmark: ${landmark}`);
+  if(prefTime) lines.push(`Preferred time: ${prefTime}`);
   if(notes) lines.push('', 'Delivery instructions:', notes);
   lines.push('', 'Please confirm availability, final amount and delivery details.', '', 'Thank you.');
-  window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(lines.join('\n'))}`, '_blank', 'noopener');
+  Analytics.track('whatsapp_order_click', { item_name: 'Dal Baati', quantity: qty, value: total, currency: SITE_CONFIG.CURRENCY });
+  window.open(`https://wa.me/${SITE_CONFIG.WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`, '_blank', 'noopener');
   closeModal();
   return false;
 }
@@ -628,6 +667,22 @@ function closeNav(){
 }
 
 document.getElementById('footerYear').textContent = new Date().getFullYear();
+
+Analytics.init();
+document.getElementById('orderForm').addEventListener('focusin', () => Analytics.track('order_form_start'), { once: true });
+document.addEventListener('click', e => {
+  const a = e.target.closest('a'); if(!a) return;
+  const href = a.getAttribute('href') || '';
+  if(href.startsWith('tel:')) Analytics.track('phone_order_click');
+  else if(href.includes('wa.me')) Analytics.track('whatsapp_click', { location: (a.closest('section,footer') || {}).id || 'floating_button' });
+  else if(href.includes('instagram.com')) Analytics.track('instagram_click');
+  else if(href.startsWith('#') && a.closest('nav,footer')) Analytics.track('navigation_click', { section: href.slice(1) });
+});
+const plateEl = document.getElementById('plate');
+if(plateEl && 'IntersectionObserver' in window){
+  const menuIo = new IntersectionObserver(en => { if(en[0].isIntersecting){ Analytics.track('view_menu'); menuIo.disconnect(); } }, { threshold: .3 });
+  menuIo.observe(plateEl);
+}
 
 const io = new IntersectionObserver((entries)=>{ entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); }); }, {threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
