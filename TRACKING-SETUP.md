@@ -49,3 +49,18 @@ then the order_id is included in the WhatsApp message and shown to the customer.
 ## 6. Business information needed
 Production domain, delivery area, opening hours, rider list, who confirms orders,
 whether a delivery fee applies, map provider choice.
+
+## 7. Allowed status transitions (enforce on the server)
+placed -> confirmed -> preparing -> ready -> rider_assigned -> picked_up -> on_the_way -> delivered
+cancelled is allowed from placed, confirmed or preparing only (owner to decide if later).
+No skipping forward or moving backward. Only admin can confirm/cancel/assign; only the assigned rider can set
+picked_up / on_the_way / delivered.
+
+## 8. GPS limits
+Browser location (`watchPosition`) stops or throttles when the phone screen locks or the browser is backgrounded,
+especially on iPhone. Installing the rider page as a PWA does not fix that. Reliable background tracking needs a
+native app (or a delivery-partner app). Plan for stale locations and show "last updated" honestly.
+
+## 9. Roles
+customer (own order via order_id + phone), rider (assigned orders only), admin (everything).
+Enforce in the database (row-level security) and in server functions, not in page JavaScript.
