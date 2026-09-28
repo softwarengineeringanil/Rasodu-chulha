@@ -1,0 +1,9 @@
+{
+  "name": "Rasodu Chulha",
+  "short_name": "Rasodu Chulha",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#F8F2E7",
+  "background_color": "#F8F2E7",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
